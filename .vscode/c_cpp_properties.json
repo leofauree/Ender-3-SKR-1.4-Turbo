@@ -1,0 +1,71 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "D:/Marlin/BTT SKR V1.4/Firmware/include",
+                "D:/Marlin/BTT SKR V1.4/Firmware/Marlin",
+                "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/SailfishLCD",
+                "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/Adafruit NeoPixel",
+                "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/TMCStepper/src",
+                "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/U8glib-HAL/src",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                "D:/Marlin/BTT SKR V1.4/Firmware/Marlin/src/HAL/HAL_LPC1768/include",
+                "D:/Marlin/BTT SKR V1.4/Firmware/Marlin/src/HAL/HAL_LPC1768/u8g",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "D:/Marlin/BTT SKR V1.4/Firmware/include",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/Marlin",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/SailfishLCD",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/Adafruit NeoPixel",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/TMCStepper/src",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/.pio/libdeps/LPC1769/U8glib-HAL/src",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/Marlin/src/HAL/HAL_LPC1768/include",
+                    "D:/Marlin/BTT SKR V1.4/Firmware/Marlin/src/HAL/HAL_LPC1768/u8g",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                    "C:/Users/Leonardo/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                    ""
+                ]
+            },
+            "defines": [
+                "LPC176X_FRAMEWORK",
+                "TARGET_LPC1768",
+                "F_CPU=120000000L",
+                "MCU_LPC1769",
+                "PIO_PLATFORM_VERSION=1001UL",
+                "PIO_FRAMEWORK_VERSION=2006UL",
+                "PLATFORMIO=50101",
+                "U8G_HAL_LINKS",
+                "__MARLIN_FIRMWARE__",
+                "ARDUINO_ARCH_LPC176X",
+                "ARDUINOLPC=10805",
+                ""
+            ],
+            "cppStandard": "c++17",
+            "compilerPath": "C:/Users/Leonardo/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -57,8 +57,8 @@
 //
 // Filament Runout Sensor
 //
-#define FIL_RUNOUT_PIN     P1_26
-#define FIL_RUNOUT2_PIN    P1_25
+#define FIL_RUNOUT_PIN     P1_25
+#define FIL_RUNOUT2_PIN    P1_26
 
 //
 // Power Supply Control
